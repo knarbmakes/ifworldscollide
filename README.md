@@ -101,7 +101,7 @@ If the unit is attacking multiple targets, roll the dice for each given target s
 
 If a die roll matches the knack score or higher, the attack lands and damage is inflicted to the unit’s hit points based on the damage value of the weapon, modified by the defense value of the target.
 
-Some weapons are more effective against certain armor types. If the weapon used is effective against the armor type of the target unit, then the damage characteristic of the weapon is DOUBLED. In the case where the target has more than one armor type, the weapon must be effective against ALL the types to double the damage.
+Some weapons are more effective against certain defense types. If the weapon used is effective against the defense type of the target unit, then the damage characteristic of the weapon is DOUBLED. In the case where the target has more than one defense type, the weapon must be effective against ALL the types to double the damage.
 
 All attacks that land will deal a minimum of 1 damage, even if the defense value of the target would reduce the damage to zero.
 

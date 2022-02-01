@@ -34,7 +34,7 @@ Each **round** happens in 3 steps:
   * The winner of the roll then rolls another 1d6 to determine the Environment effect that will be enabled that round. Environment effects are listed on the player’s faction page.
   * Optionally: If you want to, you can use a shuffled set of 12 cards (6 from each player) instead of rolling dice and looking up the results in the faction table. You will need to source a deck of cards representing each faction's environmental effects to play this way.
 
-2. **ACTIVATION POINTS GAINED** Each player earns activation points based on their leader’s leadership score. If the player’s leader has died or doesn't have a leader in their roster, they gain a minimum of 2 activation points each round.
+2. **ACTIVATION POINTS GAINED** Each player earns 2 activation points by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
   * Activation points not used in a round are carried over to future rounds.
   * After gaining activation points at the start of the round, the player with the highest value of accumulated points goes first. Resolve ties with a dice roll.
   * Each activation uses up ONE activation point.

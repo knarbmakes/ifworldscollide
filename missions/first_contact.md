@@ -24,7 +24,7 @@ The portals are the objectives for the game, and are a way to generate victory p
 
 At the end of each round, players gain 1 victory point for each portal they control. To control a portal, you must have a unit within 3 inches of the portal, without any enemy units contesting it.
 
-First player to reach 12 victory points wins the game.
+First player to reach 12 victory points or the player with the most points at the end of the 5th round, wins the game.
 
 ## Portal Mechanics
 

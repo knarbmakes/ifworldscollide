@@ -16,7 +16,7 @@ This is an example layout, place 5 portals randomly distributed on the board. Yo
 
 ## Starting Deployment
 
-Roll off to see who picks first depoyment. The winner chooses one portal, and starts deploying units within 6 inches of it, while their opponent does the same from any other portal. Alternate placing units until they are all on the board.
+Roll off to see who picks first deployment. The winner chooses one portal, and starts deploying units within 6 inches of it, while their opponent does the same from any other portal. Alternate placing units until they are all on the board.
 
 ## Objectives & Win Condition
 

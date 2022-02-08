@@ -22,7 +22,7 @@ Roll off to see who picks first deployment. The winner chooses one portal, and s
 
 The portals are the objectives for the game, and are a way to generate victory points.
 
-At the end of each round, players gain 1 victory point for each portal they control. To control a portal, you must have a unit within 3 inches of the portal, without any enemy units contesting it.
+At the end of each round, players gain 1 victory point for each portal they control. A portal comes under your control if you have units within a 3 inch radius without any enemy units in the same 3 inch radius.
 
 First player to reach 12 victory points or the player with the most points at the end of the 5th round, wins the game.
 

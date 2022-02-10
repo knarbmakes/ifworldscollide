@@ -28,6 +28,8 @@ To begin the game, deploy units one at a time alternating between the players. O
 
 A game is played in 5 **rounds**, win conditions are determined by scenario objectives.
 
+[List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
+
 Each **round** happens in 3 steps:
 
 1. **ENVIRONMENT STEP** Players roll off (1d6) to determine which player’s Environment effect is enabled that round.

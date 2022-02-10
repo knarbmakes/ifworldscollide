@@ -85,13 +85,13 @@ Activated units choose a target for EACH attack, prior to rolling. Each unit (if
 
 For weapons with melee type, targets must be within approximate base contact to be chosen. For cases where you want to attack a unit above or below you on a platform, but there is no space to manouver your miniature within base contact, you may assume that your unit moved within reach if it has the movement score to reach the target vertically.
 
-For weapons with the ranged type, targets must be chosen such that they are within line of sight. A target is within line of sight if it is clearly visible from the point of view of the attacker.
+For weapons with the ranged type, targets must be chosen such that they are within line of sight.
 
 #### Line of Sight and Cover
 
-If there are any obstacles that obscure most of the target from view, including other models, then the unit cannot be chosen as the target for a ranged attack.
+If there are any obstacles that obscure the target from view, including other models, then the unit cannot be chosen as the target for a ranged attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
-If the target is partially obscured, but still visible then the targeted unit receives an additional defensive bonus of [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical type to the unit’s existing defense types.
+If the target is partially obscured, that is, there are lines that are un-interrupted, and lines that are interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical type to the unit’s existing defense types.
 
 #### Knack Roll
 

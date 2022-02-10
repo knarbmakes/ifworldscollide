@@ -1,5 +1,5 @@
 # Core Rules
-###### v1.3
+#### v1.3
 
 ---
 
@@ -54,11 +54,11 @@ Both the active effect and the tactic failed penalty apply for both players that
 
 ## Activations
 
-On an activation, the player may choose to activate a single unit, or multiple units as a formation. When activating a formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training.
+On an activation, the player may choose to activate a single unit, or multiple units as a formation. When activating a formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
 
 Sometimes, a unit may specify a specific formation pattern on the unit sheet, which should be followed to be able to activate the units together.
 
-If a leader is a part of the formation, you may combine multiple different training for the activation.
+If a leader is a part of the formation, you may combine multiple different units with different training for the activation. As long as all the units are within base contact with each other, they can activate together with the leader.
 
 As part of the activation, the units(s) may move up to their full movement value, and then attack with all valid weapons.
 

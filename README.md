@@ -20,6 +20,8 @@ Whenever rules are unclear, use your common sense and personal preference and mo
 
 ## Playing the Game
 
+Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 150 point limit for your first game, and go from there.
+
 To start, lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission section for guidance on setting up deployment zones and objectives.
 
 Roll to see who starts deploying units first.

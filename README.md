@@ -72,7 +72,7 @@ Instead of attacking with all weapons, the unit may choose to make an additional
 
 ### Using Tactics
 
-Before activating your unit(s), decide if you want to use a tactic for the activation. Select an tactic from your faction sheet and roll an knack check trying to meet or exceed the knack score for the tactic selected.
+At the beginning of each activation (whether you are activating one unit or several), the player may choose to use a single tactic to use. Select an tactic from your faction sheet and roll an knack check trying to meet or exceed the knack score for the tactic selected.
 
 If successful, the effects apply for the rest of that activation. If the knack check is failed, you suffer the penalties listed in the current active Environment effect.
 

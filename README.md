@@ -38,12 +38,14 @@ Each **round** happens in 3 steps:
   * The winner of the roll then rolls another 1d6 to determine the Environment effect that will be enabled that round. Environment effects are listed on the player’s faction page.
   * Optionally: If you want to, you can use a shuffled set of 12 cards (6 from each player) instead of rolling dice and looking up the results in the faction table. You will need to source a deck of cards representing each faction's environmental effects to play this way.
 
-2. **ACTIVATION POINTS GAINED** Each player earns 2 activation points by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
-  * Activation points not used in a round are carried over to future rounds.
-  * After gaining activation points at the start of the round, the player with the LOWEST value of accumulated points goes first. Resolve ties with a dice roll.
-  * Each unit activation uses up ONE activation point. In addition, activation points may be used to re-roll failed knack checks. Each re-roll uses up ONE activation point.
+2. **ACTIVATION POINTS GAINED** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
+  * AP not used in a round are carried over to future rounds.
+  * After gaining AP at the start of the round, the player with the LOWEST value of accumulated points goes first. Resolve ties with a dice roll.
+  * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
+  * Each individual unit may only be activated once per round.
+  * In addition, AP may be used to re-roll failed knack checks. Each re-roll uses up ONE AP.
 
-3. **ALTERNATE ACTIVATIONS** Players alternate unit activations until they either run out of units, run out of activations, or decide to stop and save their points for later rounds.
+3. **ALTERNATE ACTIVATIONS** Players alternate unit activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
 
 ## Environment Effects
 
@@ -58,27 +60,33 @@ Both the active effect and the tactic failed penalty apply for both players that
 
 ## Activations
 
-On an activation, the player may choose to activate a single unit, or multiple units as a formation. When activating a formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
+On an activation, the player may choose to activate a single unit, or multiple units as a Formation. 
 
-Sometimes, a unit may specify a specific formation pattern on the unit sheet, which should be followed to be able to activate the units together.
+### Formations and Training
 
-If a leader is a part of the formation, you may combine multiple different units with different training for the activation. As long as all the units are within base contact with each other, they can activate together with the leader.
+When activating a Formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
 
-As part of the activation, the units(s) may move up to their full movement value, and then attack with all valid weapons.
-
-Alternatively, they may first attack with all weapons and then move. Movement cannot be broken into two parts.
-
-If moving as part of a formation, the units must stay together in formation at the end of their movement as well.
-
-Instead of attacking with all weapons, the unit may choose to make an additional movement.
+If a leader is a part of the Formation, you may combine multiple units with different training types for the activation. As long as all the units are within base contact with each other, they can activate together with the leader.
 
 ### Using Tactics
 
-At the beginning of each activation (whether you are activating one unit or several), the player may choose to use a single tactic to use. Select an tactic from your faction sheet and roll an knack check trying to meet or exceed the knack score for the tactic selected.
+At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll an knack check trying to meet or exceed the knack score for the tactic selected.
 
-If successful, the effects apply for the rest of that activation. If the knack check is failed, you suffer the penalties listed in the current active Environment effect.
+If successful, the effects apply for the rest of that activation to all activated units. If the knack check is failed, you suffer the penalties listed in the current active Environment effect.
 
-You then continue to activate your unit(s) after applying the boon or penalty.
+After applying the boon or penalty as needed, you may continue to take your unit(s) actions.
+
+### Unit Actions
+
+As part of the activation, the units(s) may move up to their full movement value, attack with all weapons, and use all their abilities.
+
+Attacks and Movement cannot be broken up in multiple parts, but may be done in any order. Eg: Attack then Move, or Move then Attack.
+
+Abilities can be used at any time during the turn, as long as they do not break up Attacks or Movement.
+
+Instead of attacking with all weapons, the unit may choose to make an additional movement, also referred to as a double move.
+
+When moving a formation, the units must start AND end their overall movement in base contact.
 
 ### Attacks
 
@@ -117,7 +125,11 @@ If a unit currently  has an enemy within base contact, or melee weapons range: A
 
 ### Abilities
 
-Units may have abilities which are specific to them. The ability will specify how it is to be used and any costs they incur. Some abilities may specify that the unit cannot move or attack that activation. Some may deal damage to the unit or incur penalties on them. Abilities may supersede the rules in some fashion.
+Units may have any number of abilities they can use during an activation. The ability text will specify how it is to be used and any costs they incur.
+
+Most abilities will require some form of knack check, which works identical to weapon attacks. Some abilities take the form of passive bonuses or require some sort of trigger, others are targeted effects.
+
+Abilities may supersede the rules in some fashion.
 
 ### Tokens
 
@@ -129,9 +141,9 @@ Some abilities, tactics, or environment effects can cause units to gain or lose 
 
 ### Terrain
 
-Other than blocking line of sight, terrain imparts other benefits as well. By default, all terrain has the following traits:
+Other than blocking line of sight, terrain may impart other benefits or penalties around it. By default, all terrain has the following traits:
 
-* If a piece of terrain partially obscures a unit during an attack, (50% or more), units gain the benefit of cover bonus.
+* If a piece of terrain partially obscures a unit during an attack, units gain the benefit of cover bonus.
 * Terrain is scalable, costing movement in the vertical direction to ascend and descend.
 
 ## Keywords

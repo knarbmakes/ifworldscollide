@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.3
+#### v1.4
 
 ---
 
@@ -100,25 +100,40 @@ Units may move freely through friendly units, but not through enemy units. Terra
 ### Attacks
 
 #### Choosing a Target
-Activated units choose a target for EACH attack, prior to rolling. Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at a different target.
 
-For weapons with melee type, targets must be within approximate base contact to be chosen. For cases where you want to attack a unit above or below you on a platform, but there is no space to manouver your miniature within base contact, you may assume that your unit moved within reach if it has the movement score to reach the target vertically.
+Activated units choose a target for EACH attack, prior to rolling.
 
-For weapons with the ranged type, targets must be chosen such that they are within line of sight.
+Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired.
+
+#### Weapon Types
+
+Some weapons work differently than others. A weapon may have more than one type listed, which allows you some flexibility on which targeting feature or penalty to take.
+
+**Melee** - This weapon may target adjacent units for attacks.
+
+**Near** - This weapon may be used to target any units within line of sight, and within 10d.
+
+**Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
+
+**Heavy** - This weapon specializes in dealing large amounts of damage, penetrating even the strongest defense. For attacks where the target's defenses would reduce the damage to 0, Heavy weapons always deals a minimum of 2 damage for each successful attack. Additionally, Heavy weapons MUST be defined with 6 or more base damage per attack.
 
 #### Line of Sight and Cover
 
-If there are any obstacles that obscure the target from view, including other models, then the unit cannot be chosen as the target for a ranged attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
+If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
-If the target is partially obscured, that is, there are lines that are un-interrupted, and lines that are interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical type to the unit’s existing defense types.
+If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical Defense Type to the unit’s existing Defense Types.
 
 #### Knack Roll
 
-To land each attack, the player will roll a six sided die for each attack, attempting to match the knack score for the weapon being used, listed on the unit’s stat block. Unmodified rolls of 1 always fail, and rolls of 6 always hit.
+Knack rolls are used for determining success for weapons, abilities, knack checks and other effects.
+
+To determine success, the player rolls a six sided die for each attack and applies any bonuses or penalties to the value, attempting to match the knack score for the weapon being used. Unmodified rolls of 1 always fail, and rolls of 6 always hit.
 
 If the unit is only attacking one target, you may roll all dice at the same time.
 
 If the unit is attacking multiple targets, roll the dice for each given target separately, in the order you want to resolve them. If a die roll matches the knack score or higher, the attack lands and damage is inflicted.
+
+Knack checks for ability and tactic use work in a similar way.
 
 #### Calculating Damage
 
@@ -126,29 +141,22 @@ Attack damage is calculated individually, per attack.
 
 For each successful attack or source of damage, take the damage value, apply all bonuses and then apply all penalties from the defense value of the unit taking damage, in that order.
 
-Defensively, units have two features to reduce incoming damage:
+Damage is modified in several ways:
 
-**Defense Value** - First, this value is subtracted from the incoming damage.
+**Target Unit Defense Value** - Subtracted from the incoming damage.
 
-**Defense Type** - Some units specify one or more Defense Types. These types are a protection against CRITICAL damage. If an attack bypasses all Defense Types a unit has, it is considered a CRITICAL attack and does double damage (applied before subtracting defense value).
+**Target Unit Defense Type** - Some units specify one or more Defense Types. These types are a protection against CRITICAL damage.
 
-For example, a Berserker is attacking a Scientist with it's Axe. The weapon hits with N attacks, with base 6 damage each. The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 hit points on the unit.
+**CRITICAL Attacks** - If an attack bypasses ALL Defense Types a unit has, it is considered a CRITICAL attack and does double damage (doubling is applied before subtracting defense value, as this is a bonus to the attack). If the attack has any other damage bonuses, they are also doubled by the CRITICAL.
 
-If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 hit points on the unit.
+For example:
 
-When a unit is reduced to zero hit points, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Certain units drop different types of tokens on death.
+> A Berserker is attacking a Scientist with an Axe (A3 D6). 
+> The weapon hits with 2 attack, with base 6 damage each.
+> The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 hit points on the unit for each attack.
+> If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 hit points on the unit for each attack.
 
-#### Weapon Types
-
-Some weapons work differently than others. A weapon may have more than one type listed, and the types will work together.
-
-**Melee** - This weapon may target adjacent units for attacks.
-
-**Ranged** - This weapon may be used to target any units within line of sight, at any distance. While an enemy unit is able to target this unit with melee attacks, all ranged attacks using this type's targeting feature are less accurate, requiring unmodified values of 6 to hit successfully.
-
-**Heavy** - This weapon specializes in dealing large amounts of damage, penetrating even the strongest defense. Even if the target's defenses would reduce the damage to 0, a Heavy weapon always deals a minimum of 2 damage. Weapons with the Heavy type must inflict 6 or more base damage per attack.
-
-**Near** - This weapon may be used to target any units within line of sight, and within 10d.
+When a unit is reduced to zero hit points, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
 
 #### Melee and Movement Penalty
 

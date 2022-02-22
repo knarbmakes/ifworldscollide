@@ -39,18 +39,19 @@ A game is played in 5 **rounds**, win conditions are determined by scenario obje
 
 Each **round** happens in 3 steps:
 
-1. **ENVIRONMENT STEP** Players roll off (1d6) to determine which player’s Environment effect is enabled that round.
-  * The winner of the roll then rolls another 1d6 to determine the Environment effect that will be enabled that round. Environment effects are listed on the player’s faction page.
-  * Optionally: If you want to, you can use a shuffled set of 12 cards (6 from each player) instead of rolling dice and looking up the results in the faction table. You will need to source a deck of cards representing each faction's environmental effects to play this way.
+1. **ENVIRONMENT STEP** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
+  * To randomly choose the effect for the current round: roll a six sided dice, and look up the Environment effect on the appropriate faction list. Keep this effect visible with a card or a sticky note for both players to reference readily.
+  * For more details, see the Environment Effects section.
 
 2. **ACTIVATION POINTS GAINED** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
   * AP not used in a round are carried over to future rounds.
-  * After gaining AP at the start of the round, the player with the LOWEST value of accumulated points goes first. Resolve ties with a dice roll.
   * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
-  * Each individual unit may only be activated once per round.
-  * In addition, AP may be used to re-roll failed knack checks. Each re-roll uses up ONE AP.
+  * Each unit may only be activated once per round.
+  * In addition, AP may be spent to re-roll failed knack checks. Each re-roll attempt costs one AP.
 
-3. **ALTERNATE ACTIVATIONS** Players alternate unit activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
+3. **ALTERNATE ACTIVATIONS** After gaining AP at the start of the round, the player with the LOWEST value of accumulated points activates first. Resolve ties with a dice roll.
+  * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
+  * For more details, see the Activations section.
 
 ## Environment Effects
 
@@ -75,9 +76,9 @@ If a leader is a part of the Formation, you may combine multiple units with diff
 
 ### Using Tactics
 
-At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll an knack check trying to meet or exceed the knack score for the tactic selected.
+At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll the knack check trying to meet or exceed the knack score for the tactic selected. See Knack Rolls below for additional details.
 
-If successful, the effects apply for the rest of that activation to all activated units. If the knack check is failed, you suffer the penalties listed in the current active Environment effect.
+If successful, the effects apply to all units in the current activation. If the knack check is failed, all units in the current activation suffer the penalties listed on the current round's Environment Effect under Tactic Penalties.
 
 After applying the boon or penalty as needed, you may continue to take your unit(s) actions.
 

@@ -7,12 +7,17 @@
 
 The game is played with 10 to 20 models per player, with no particular miniature line; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative gameplay with memorable and exciting moments. Games are designed to be completed within 1.5 hours for two players.
 
+## Dimensions and Unit Size
+
+The game may be played in any scale and with any measurement system. Distances are defined as unitless values of d (eg: 23d), which can be scaled/converted to your choosing. A simple rule of thumb for playing in 1:56 (standard 25/32mm) is 1d is equal to 1 inch, or 1d is equal to 25mm.
+
 ## Stuff you Need
 
-* A tabletop or surface to play the game on. Suggested size is 3’ by 3’ square, or larger.
+* A tabletop or surface to play the game on. A 36d by 36d square, or ~1300d squared rectangle.
 * Several pieces of terrain for blocking line-of-sight and creating an interesting play surface.
 * A set of six sided dice of various colors.
 * A set of miniatures to play with for each player. Each individual miniature model is referred to as a unit.
+* A way to measure distance. Ruler/Measuring Tape.
 
 ## Reading the Rules
 
@@ -88,6 +93,10 @@ Instead of attacking with all weapons, the unit may choose to make an additional
 
 When moving a formation, the units must start AND end their overall movement in base contact.
 
+### Movement
+
+Units may move freely through friendly units, but not through enemy units. Terrain may also block movement, and must either be scaled vertically or circumvented around, both costing additional movement. Use common sense in terms of measuring micro-details, keep the game moving.
+
 ### Attacks
 
 #### Choosing a Target
@@ -109,19 +118,41 @@ To land each attack, the player will roll a six sided die for each attack, attem
 
 If the unit is only attacking one target, you may roll all dice at the same time.
 
-If the unit is attacking multiple targets, roll the dice for each given target separately, in the order you want to resolve them.
+If the unit is attacking multiple targets, roll the dice for each given target separately, in the order you want to resolve them. If a die roll matches the knack score or higher, the attack lands and damage is inflicted.
 
-If a die roll matches the knack score or higher, the attack lands and damage is inflicted to the unit’s hit points based on the damage value of the weapon, modified by the defense value of the target.
+#### Calculating Damage
 
-Some weapons are more effective against certain defense types. If the weapon used is effective against the defense type of the target unit, then the damage characteristic of the weapon is DOUBLED. In the case where the target has more than one defense type, the weapon must be effective against ALL the types to double the damage.
+Attack damage is calculated individually, per attack.
 
-All attacks that land will deal a minimum of 1 damage, even if the defense value of the target would reduce the damage to zero.
+For each successful attack or source of damage, take the damage value, apply all bonuses and then apply all penalties from the defense value of the unit taking damage, in that order.
 
-When a unit is reduced to zero hit points, it is removed from play, and replaced with a token signifying a fallen unit. Alternatively, if you don’t have access to any tokens, the miniature may be placed on it’s side instead to represent the token.
+Defensively, units have two features to reduce incoming damage:
 
-#### Ranged Weapons in Melee Combat
+**Defense Value** - First, this value is subtracted from the incoming damage.
 
-If a unit currently  has an enemy within base contact, or melee weapons range: ALL knack checks involving exclusively ranged weapons must roll unmodified values of 6 to be successful.
+**Defense Type** - Some units specify one or more Defense Types. These types are a protection against CRITICAL damage. If an attack bypasses all Defense Types a unit has, it is considered a CRITICAL attack and does double damage (applied before subtracting defense value).
+
+For example, a Berserker is attacking a Scientist with it's Axe. The weapon hits with N attacks, with base 6 damage each. The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 hit points on the unit.
+
+If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 hit points on the unit.
+
+When a unit is reduced to zero hit points, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Certain units drop different types of tokens on death.
+
+#### Weapon Types
+
+Some weapons work differently than others. A weapon may have more than one type listed, and the types will work together.
+
+**Melee** - This weapon may target adjacent units for attacks.
+
+**Ranged** - This weapon may be used to target any units within line of sight, at any distance. While an enemy unit is able to target this unit with melee attacks, all ranged attacks using this type's targeting feature are less accurate, requiring unmodified values of 6 to hit successfully.
+
+**Heavy** - This weapon specializes in dealing large amounts of damage, penetrating even the strongest defense. Even if the target's defenses would reduce the damage to 0, a Heavy weapon always deals a minimum of 2 damage. Weapons with the Heavy type must inflict 6 or more base damage per attack.
+
+**Near** - This weapon may be used to target any units within line of sight, and within 10d.
+
+#### Melee and Movement Penalty
+
+In addition to limiting the accuracy of ranged weapons, when an enemy unit is within melee range, your unit suffers from limited mobility. Activating a unit that has enemy units within melee range limits you to either attacking or moving, but not both. Ability use is unaffected.
 
 ### Abilities
 
@@ -133,7 +164,7 @@ Abilities may supersede the rules in some fashion.
 
 ### Tokens
 
-Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1 inch in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
+Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1 distance in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
 
 ### Conditions
 

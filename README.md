@@ -104,7 +104,7 @@ Units may move freely through friendly units, but not through enemy units. Terra
 
 Activated units choose a target for EACH attack, prior to rolling.
 
-Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired.
+Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. You may choose to resolve some attacks before proceeding with other attacks, as defeating units may change target eligibility through line of sight. You must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice.
 
 #### Weapon Types
 
@@ -112,7 +112,7 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 **Melee** - This weapon may target adjacent units for attacks.
 
-**Near** - This weapon may be used to target any units within line of sight, and within 10d.
+**Near** - This weapon may be used to target any units within line of sight, AND within 10d.
 
 **Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
 
@@ -157,6 +157,8 @@ For example:
 > The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 hit points on the unit for each attack.
 > 
 > If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 hit points on the unit for each attack.
+
+Even if an attack is successful, a target unit's defense value may fully block all incoming damage, reducing it to zero. If an ability or weapon type circumvents this, it will have specific wording describing how. See Heavy Weapon Types.
 
 When a unit is reduced to zero hit points, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
 

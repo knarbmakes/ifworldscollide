@@ -86,7 +86,7 @@ If successful, the effects apply to all units in the current activation. If the 
 
 After applying the boon or penalty as needed, you may continue to take your unit(s) actions.
 
-### Unit Actions
+## Unit Actions
 
 As part of the activation, the units(s) may move up to their full movement value, attack with all weapons, and use all their abilities.
 

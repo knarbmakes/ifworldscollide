@@ -124,7 +124,7 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 ### Line of Sight and Cover
 
-If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
+If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
 If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical Defense Type to the unit’s existing Defense Types.
 
@@ -158,13 +158,13 @@ For example:
 
 > A Berserker is attacking a Scientist with an Axe (A3 D6). 
 > The weapon hits with 2 attack, with base 6 damage each.
-> The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 hit points on the unit for each attack.
+> The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 health on the unit for each attack.
 > 
-> If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 hit points on the unit for each attack.
+> If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 health on the unit for each attack.
 
 Even if an attack is successful, a target unit's defense value may fully block all incoming damage, reducing it to zero. If an ability or weapon type circumvents this, it will have specific wording describing how. See Heavy Weapon Types.
 
-When a unit is reduced to zero hit points, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
+When a unit is reduced to zero health, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
 
 ### Melee and Movement Penalty
 
@@ -189,18 +189,19 @@ Some abilities, tactics, or environment effects can cause units to gain or lose 
 ## Keywords
 
 * **Tactics** Faction-wide abilities that can be used at the start of any activation. Failing the knack check results in environmental penalties.
-* **Health** Number of hitpoints a unit has before it is defeated and removed from play.
-* **Defense Type(s)** The defense types, specifying the type of defense that unit has. The more types, the better. None is also valid.
-* **Defense Value** A numerical value for the level of defense.
+* **Health** Number of hit points a unit has before it is defeated and removed from play.
+* **Defense Type(s)** The defense types, specifying the type of defense that unit has. Protects against CRITICAL attacks.
+* **Defense Value** A numerical value for the level of defense. Subtracted from damage inflicted.
+* **CRITICAL Attack** When an attack bypasses all defense types of the target unit, it is considered a CRITICAL attack, doubling the damage inflicted.
 * **Move** Distance the unit can move in one activation
-* **Knack** The level of proficiency the unit has in wielding a weapon, ability or strategy. Defined as a number between 2 and 6. This is the target number to roll equal to or higher in order to score a hit, using a 6 sided dice.
-* **Weapons** A list of offensive capabilities the unit can use during an activation. Each Weapon has the following attributes:
+* **Knack** The level of proficiency the unit has in wielding a weapon, ability or tactic. Defined as a number between 2 and 6. Roll a six sided dice, and add any bonuses or penalities. If you meet the knack score or higher, it's successful.
+* **Weapons** A list of offensive capabilities the unit can use during an activation as attacks. Each Weapon has the following attributes:
   * **Attacks** The number of attacks the unit may make with this weapon in one activation.
   * **Damage** The amount of damage each attack with this weapon inflicts.
-  * **Effective** VS Type - The specific type of defense this weapon will inflict double damage against. Weapons may be effective against multiple defense types. To deal double damage, the weapon must be effective against ALL the types specified on the target. If the target has no defense types, ALL weapons do double damage against them.
+  * **Effective** VS Type - The defense types that this weapon bypasses, in an attempt to get the CRITICAL attack bonus.
 * **Abilities** A list of special tools and abilities the unit can use during an activation. Specific wording to describe the effect.
-* **Condition** An effect applied to a unit. If not specified, assume the duration is indefinite. Can be cleared by any abilities that specify they clear effects.
-* **Activation** The time during which a unit is able to move and attack and use it's abilities.
-* **Cover** Physical (3) Bonus against ranged attacks.
+* **Condition** An effect applied to a unit. If not specified, assume the duration lasts until the end the unit's next activation. Can be cleared by any effects that specify they clear conditions.
+* **Activation** The time during which a unit is able to move, attack and use it's abilities.
+* **Cover** Physical (3) Defense Bonus against Ranged and Near attacks.
 
 

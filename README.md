@@ -7,7 +7,7 @@
 
 The game is played with 10 to 20 models per player, with no particular miniature line; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative gameplay with memorable and exciting moments. Games are designed to be completed within 1.5 hours for two players.
 
-## Dimensions
+## Measurements and Dimensions
 
 The game may be played in any scale and with any measurement system. Distances are defined as unitless values of d (eg: 23d), which can be scaled/converted to your choosing. A simple rule of thumb for playing in 1:56 (standard 25/32mm) is 1d is equal to 1 inch, or 1d is equal to 25mm.
 
@@ -17,6 +17,8 @@ The game may be played in any scale and with any measurement system. Distances a
 * Several pieces of terrain for blocking line-of-sight and creating an interesting play surface.
 * A set of six sided dice of various colors.
 * A set of miniatures to play with for each player. Each individual miniature model is referred to as a unit.
+* Stat sheets for each unit used as well as additional factions rules, such as environment and tactics.
+* A set of tokens to represent activation points, as well as other battlefield tokens
 * A way to measure distance. Ruler/Measuring Tape.
 
 ## Reading the Rules
@@ -25,17 +27,15 @@ Whenever rules are unclear, use your common sense and personal preference and mo
 
 ## Playing the Game
 
-Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 150 point limit for your first game, and go from there.
+Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 150 point limit for your first game, scale up from there.
 
-To start, lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission section for guidance on setting up deployment zones and objectives.
+Decide on a mission. Refer to [List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 
-Roll to see who starts deploying units first.
+To start, lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
 
-To begin the game, deploy units one at a time alternating between the players. Once both players have all their units deployed, the game starts.
+Unless the mission specifies otherwise, both players deploy units down simultaneously. Avoid looking at your opponents deployment zone until they are finished, no peeking.
 
 A game is played in 5 **rounds**, win conditions are determined by scenario objectives.
-
-[List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 
 Each **round** happens in 3 steps:
 

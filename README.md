@@ -7,7 +7,7 @@
 
 The game is played with 10 to 20 models per player, with no particular miniature line; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative gameplay with memorable and exciting moments. Games are designed to be completed within 1.5 hours for two players.
 
-## Dimensions and Unit Size
+## Dimensions
 
 The game may be played in any scale and with any measurement system. Distances are defined as unitless values of d (eg: 23d), which can be scaled/converted to your choosing. A simple rule of thumb for playing in 1:56 (standard 25/32mm) is 1d is equal to 1 inch, or 1d is equal to 25mm.
 
@@ -154,6 +154,7 @@ For example:
 > A Berserker is attacking a Scientist with an Axe (A3 D6). 
 > The weapon hits with 2 attack, with base 6 damage each.
 > The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 hit points on the unit for each attack.
+> 
 > If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 hit points on the unit for each attack.
 
 When a unit is reduced to zero hit points, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
@@ -172,18 +173,11 @@ Abilities may supersede the rules in some fashion.
 
 ### Tokens
 
-Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1 distance in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
+Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1d in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
 
 ### Conditions
 
 Some abilities, tactics, or environment effects can cause units to gain or lose conditions. These will persist for the duration specified when the condition is gained, and can be cleared with any effects that say they interact with conditions. Conditions can have positive or negative effects.
-
-### Terrain
-
-Other than blocking line of sight, terrain may impart other benefits or penalties around it. By default, all terrain has the following traits:
-
-* If a piece of terrain partially obscures a unit during an attack, units gain the benefit of cover bonus.
-* Terrain is scalable, costing movement in the vertical direction to ascend and descend.
 
 ## Keywords
 

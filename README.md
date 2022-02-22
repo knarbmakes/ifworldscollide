@@ -25,7 +25,7 @@ The game may be played in any scale and with any measurement system. Distances a
 
 Whenever rules are unclear, use your common sense and personal preference and move on! If any rules conflicts directly with another, apply the more specifically worded rule as a priority.
 
-# Units and Base Sizes
+## Units and Base Sizes
 
 Each individual model is refered to as a Unit. Different Units may have different base sizes, and will be specified in their stat sheet. Valid base sizes range from 1d to 5d, or anywhere in between. Some units may have different shaped bases, or no bases at all. When measuring distances, use the center of the model as a reference point.
 
@@ -68,17 +68,17 @@ Each card will have:
 
 Both the active effect and the tactic failed penalty apply for both players that round, but may be skewed or in favor for the faction the Environment effect originated from.
 
-## Activations
+# Activations
 
 On an activation, the player may choose to activate a single unit, or multiple units as a Formation. 
 
-### Formations and Training
+## Formations and Training
 
 When activating a Formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
 
 If a leader is a part of the Formation, you may combine multiple units with different training types for the activation. As long as all the units are within base contact with each other, they can activate together with the leader.
 
-### Using Tactics
+## Using Tactics
 
 At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll the knack check trying to meet or exceed the knack score for the tactic selected. See Knack Rolls below for additional details.
 
@@ -98,19 +98,19 @@ Instead of attacking with all weapons, the unit may choose to make an additional
 
 When moving a formation, the units must start AND end their overall movement in base contact.
 
-### Movement
+## Movement
 
 Units may move freely through friendly units, but not through enemy units. Terrain may also block movement, and must either be scaled vertically or circumvented around, both costing additional movement. Use common sense in terms of measuring micro-details, keep the game moving.
 
-### Attacks
+## Attacks
 
-#### Choosing a Target
+### Choosing a Target
 
 Activated units choose a target for EACH attack, prior to rolling.
 
 Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. You may choose to resolve some attacks before proceeding with other attacks, as defeating units may change target eligibility through line of sight. You must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice.
 
-#### Weapon Types
+### Weapon Types
 
 Some weapons work differently than others. A weapon may have more than one type listed, which allows you some flexibility on which targeting feature or penalty to take.
 
@@ -122,13 +122,13 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 **Heavy** - This weapon specializes in dealing large amounts of damage, penetrating even the strongest defense. For attacks where the target's defenses would reduce the damage to 0, Heavy weapons always deals a minimum of 2 damage for each successful attack. Additionally, Heavy weapons MUST be defined with 6 or more base damage per attack.
 
-#### Line of Sight and Cover
+### Line of Sight and Cover
 
 If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
 If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical Defense Type to the unit’s existing Defense Types.
 
-#### Knack Roll
+### Knack Roll
 
 Knack rolls are used for determining success for weapons, abilities, knack checks and other effects.
 
@@ -140,7 +140,7 @@ If the unit is attacking multiple targets, roll the dice for each given target s
 
 Knack checks for ability and tactic use work in a similar way.
 
-#### Calculating Damage
+### Calculating Damage
 
 Attack damage is calculated individually, per attack.
 
@@ -166,11 +166,11 @@ Even if an attack is successful, a target unit's defense value may fully block a
 
 When a unit is reduced to zero hit points, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
 
-#### Melee and Movement Penalty
+### Melee and Movement Penalty
 
 In addition to limiting the accuracy of ranged weapons, when an enemy unit is within melee range, your unit suffers from limited mobility. Activating a unit that has enemy units within melee range limits you to either attacking or moving, but not both. Ability use is unaffected.
 
-### Abilities
+## Abilities
 
 Units may have any number of abilities they can use during an activation. The ability text will specify how it is to be used and any costs they incur.
 
@@ -178,11 +178,11 @@ Most abilities will require some form of knack check, which works identical to w
 
 Abilities may supersede the rules in some fashion.
 
-### Tokens
+## Tokens
 
 Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1d in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
 
-### Conditions
+## Conditions
 
 Some abilities, tactics, or environment effects can cause units to gain or lose conditions. These will persist for the duration specified when the condition is gained, and can be cleared with any effects that say they interact with conditions. Conditions can have positive or negative effects.
 

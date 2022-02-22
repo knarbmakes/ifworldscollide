@@ -25,6 +25,10 @@ The game may be played in any scale and with any measurement system. Distances a
 
 Whenever rules are unclear, use your common sense and personal preference and move on! If any rules conflicts directly with another, apply the more specifically worded rule as a priority.
 
+# Units and Base Sizes
+
+Each individual model is refered to as a Unit. Different Units may have different base sizes, and will be specified in their stat sheet. Valid base sizes range from 1d to 5d, or anywhere in between. Some units may have different shaped bases, or no bases at all. When measuring distances, use the center of the model as a reference point.
+
 ## Playing the Game
 
 Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 150 point limit for your first game, scale up from there.

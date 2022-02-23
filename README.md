@@ -182,9 +182,7 @@ Abilities may supersede the rules in some fashion.
 
 Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1d in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
 
-## Conditions
-
-Some abilities, tactics, or environment effects can cause units to gain or lose conditions. These will persist for the duration specified when the condition is gained, and can be cleared with any effects that say they interact with conditions. Conditions can have positive or negative effects.
+Tokens can be used as area effects, or keeping track of active debilitations or buffs to units, and they provide a much more visual and tactile way to track effects on the battlefield.
 
 ## Keywords
 
@@ -200,7 +198,6 @@ Some abilities, tactics, or environment effects can cause units to gain or lose 
   * **Damage** The amount of damage each attack with this weapon inflicts.
   * **Effective** VS Type - The defense types that this weapon bypasses, in an attempt to get the CRITICAL attack bonus.
 * **Abilities** A list of special tools and abilities the unit can use during an activation. Specific wording to describe the effect.
-* **Condition** An effect applied to a unit. If not specified, assume the duration lasts until the end the unit's next activation. Can be cleared by any effects that specify they clear conditions.
 * **Activation** The time during which a unit is able to move, attack and use it's abilities.
 * **Cover** Physical (3) Defense Bonus against Ranged and Near attacks.
 

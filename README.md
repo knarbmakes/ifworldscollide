@@ -9,11 +9,11 @@ The game is played with 10 to 20 models per player, with no particular miniature
 
 ## Measurements and Dimensions
 
-The game may be played in any scale and with any measurement system. Distances are defined as unitless paces (eg: 23p or 23 paces), which can be scaled/converted to your choosing. A simple rule of thumb for playing in 1:56 (standard 25/32mm) is 1 pace is equal to 1 inch, or 1 pace is equal to 25mm.
+The game may be played in any scale and with any measurement system. Distances are defined as unitless steps (eg: 23s or 23 steps), which can be scaled/converted to your choosing. A simple rule of thumb for playing in 1:56 (standard 25/32mm) 1 step is equal to 1 inch, or 1 step is equal to 25mm.
 
 ## Stuff you Need
 
-* A tabletop or surface to play the game on. A 36p by 36p square, or ~1300 paces squared rectangle.
+* A tabletop or surface to play the game on. A 36s by 36s square, or ~1300 steps squared rectangle.
 * Several pieces of terrain for blocking line-of-sight and creating an interesting play surface.
 * A set of six sided dice of various colors.
 * A set of miniatures to play with for each player. Each individual miniature model is referred to as a unit.
@@ -27,7 +27,7 @@ Whenever rules are unclear, use your common sense and personal preference and mo
 
 ## Units and Base Sizes
 
-Each individual model is refered to as a Unit. Different Units may have different base sizes, and will be specified in their stat sheet. Valid base sizes range from 1 pace to 4 pace, or anywhere in between. Some units may have different shaped bases, or no bases at all. When measuring distances, use the center of the model as a reference point.
+Each individual model is refered to as a Unit. Different Units may have different base sizes, and will be specified in their stat sheet. Valid base sizes range from 1 step to 4 steps, or anywhere in between. Some units may have different shaped bases, or no bases at all. When measuring distances, use the center of the model as a reference point.
 
 ## Playing the Game
 
@@ -116,7 +116,7 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 **Melee** - This weapon may target adjacent units for attacks.
 
-**Near** - This weapon may be used to target any units within line of sight, AND within 10 paces.
+**Near** - This weapon may be used to target any units within line of sight, AND within 10 steps.
 
 **Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
 

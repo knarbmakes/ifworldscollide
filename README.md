@@ -41,9 +41,9 @@ Unless the mission specifies otherwise, both players deploy units down simultane
 
 A game is played in 5 **rounds**, win conditions are determined by scenario objectives.
 
-Each **round** happens in 3 steps:
+Each **round** happens in 3 phases:
 
-1. **ENVIRONMENT STEP** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
+1. **ENVIRONMENT EFFECTS** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
   * To randomly choose the effect for the current round: roll a six sided dice, and look up the Environment effect on the appropriate faction list. Keep this effect visible with a card or a sticky note for both players to reference readily.
   * For more details, see the Environment Effects section.
 
@@ -53,13 +53,14 @@ Each **round** happens in 3 steps:
   * Each unit may only be activated once per round.
   * In addition, AP may be spent to re-roll failed knack checks. Each re-roll attempt costs one AP.
 
-3. **ALTERNATE ACTIVATIONS** After gaining AP at the start of the round, the player with the LOWEST value of accumulated points activates first. Resolve ties with a dice roll.
+3. **UNIT ACTIVATIONS** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
   * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
+  * If a player decides to stop activating early, they are locked out from play until the next round begins.
   * For more details, see the Activations section.
 
 ## Environment Effects
 
-Each player will have a table of Environment effects listed on their faction page. In the Environment step, one of these effects will be selected that affects both players.
+Each player will have a table of Environment effects listed on their faction page. In the Environment phase, one of these effects will be selected that affects both players.
 
 Each card will have:
 

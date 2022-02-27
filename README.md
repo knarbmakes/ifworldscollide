@@ -143,7 +143,9 @@ Knack checks for ability and tactic use work in a similar way.
 
 ### Calculating Damage
 
-Attack damage is calculated individually, per attack.
+For a regular attack. Damage is calculated individually, per attack.
+
+Optionally, the player may choose to make a Focused Attack, in which case, they may choose to combine their attacks (per weapon) into 1 Attack, and gain a bonus damage equal to the number of attacks lost: Eg: A 5 Attack 2 Damage weapon becomes a 1 Attack 6 Damage weapon.
 
 For each successful attack or source of damage, take the damage value, apply all bonuses and then apply all penalties from the defense value of the unit taking damage, in that order.
 
@@ -162,8 +164,6 @@ For example:
 > The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 health on the unit for each attack.
 > 
 > If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 health on the unit for each attack.
-
-If a target unit's defenses are such that they block all incoming damage during the activation, a minimum of 1 damage will be inflicted after all weapons are used, as long as there was at least 1 successful attack made.
 
 When a unit is reduced to zero health, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
 

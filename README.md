@@ -163,7 +163,7 @@ For example:
 > 
 > If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 health on the unit for each attack.
 
-Even if an attack is successful, a target unit's defense value may fully block all incoming damage, reducing it to zero. If an ability or weapon type circumvents this, it will have specific wording describing how. See Heavy Weapon Types.
+If a target unit's defenses are such that they block all incoming damage during the activation, a minimum of 1 damage will be inflicted after all weapons are used, as long as there was at least 1 successful attack made.
 
 When a unit is reduced to zero health, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
 

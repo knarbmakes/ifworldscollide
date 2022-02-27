@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.3
+#### v1.4
 
 ---
 
@@ -7,49 +7,60 @@
 
 The game is played with 10 to 20 models per player, with no particular miniature line; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative gameplay with memorable and exciting moments. Games are designed to be completed within 1.5 hours for two players.
 
+## Measurements and Dimensions
+
+The game may be played in any scale and with any measurement system. Distances are defined as unitless steps (eg: 23s or 23 steps), which can be scaled/converted to your choosing. A simple rule of thumb for playing in 1:56 (standard 25/32mm) 1 step is equal to 1 inch, or 1 step is equal to 25mm.
+
 ## Stuff you Need
 
-* A tabletop or surface to play the game on. Suggested size is 3’ by 3’ square, or larger.
+* A tabletop or surface to play the game on. A 36s by 36s square, or ~1300 steps squared rectangle.
 * Several pieces of terrain for blocking line-of-sight and creating an interesting play surface.
 * A set of six sided dice of various colors.
 * A set of miniatures to play with for each player. Each individual miniature model is referred to as a unit.
+* Stat sheets for each unit used as well as additional factions rules, such as environment and tactics.
+* A set of tokens to represent activation points, as well as other battlefield tokens
+* A way to measure distance. Ruler/Measuring Tape.
 
 ## Reading the Rules
 
 Whenever rules are unclear, use your common sense and personal preference and move on! If any rules conflicts directly with another, apply the more specifically worded rule as a priority.
 
+## Units and Base Sizes
+
+Each individual model is refered to as a Unit. Different Units may have different base sizes, and will be specified in their stat sheet. Valid base sizes range from 1 step to 4 steps, or anywhere in between. Some units may have different shaped bases, or no bases at all. When measuring distances, use the center of the model as a reference point.
+
 ## Playing the Game
 
-Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 150 point limit for your first game, and go from there.
+Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 150 point limit for your first game, scale up from there.
 
-To start, lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission section for guidance on setting up deployment zones and objectives.
+Decide on a mission. Refer to [List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 
-Roll to see who starts deploying units first.
+To start, lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
 
-To begin the game, deploy units one at a time alternating between the players. Once both players have all their units deployed, the game starts.
+Unless the mission specifies otherwise, both players deploy units down simultaneously. Avoid looking at your opponents deployment zone until they are finished, no peeking.
 
 A game is played in 5 **rounds**, win conditions are determined by scenario objectives.
 
-[List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
+Each **round** happens in 3 phases:
 
-Each **round** happens in 3 steps:
-
-1. **ENVIRONMENT STEP** Players roll off (1d6) to determine which player’s Environment effect is enabled that round.
-  * The winner of the roll then rolls another 1d6 to determine the Environment effect that will be enabled that round. Environment effects are listed on the player’s faction page.
-  * Optionally: If you want to, you can use a shuffled set of 12 cards (6 from each player) instead of rolling dice and looking up the results in the faction table. You will need to source a deck of cards representing each faction's environmental effects to play this way.
+1. **ENVIRONMENT EFFECTS** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
+  * To randomly choose the effect for the current round: roll a six sided dice, and look up the Environment effect on the appropriate faction list. Keep this effect visible with a card or a sticky note for both players to reference readily.
+  * For more details, see the Environment Effects section.
 
 2. **ACTIVATION POINTS GAINED** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
   * AP not used in a round are carried over to future rounds.
-  * After gaining AP at the start of the round, the player with the LOWEST value of accumulated points goes first. Resolve ties with a dice roll.
   * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
-  * Each individual unit may only be activated once per round.
-  * In addition, AP may be used to re-roll failed knack checks. Each re-roll uses up ONE AP.
+  * Each unit may only be activated once per round.
+  * In addition, AP may be spent to re-roll failed knack checks. Each re-roll attempt costs one AP.
 
-3. **ALTERNATE ACTIVATIONS** Players alternate unit activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
+3. **UNIT ACTIVATIONS** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
+  * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
+  * If a player decides to stop activating early, they are locked out from play until the next round begins.
+  * For more details, see the Activations section.
 
 ## Environment Effects
 
-Each player will have a table of Environment effects listed on their faction page. In the Environment step, one of these effects will be selected that affects both players.
+Each player will have a table of Environment effects listed on their faction page. In the Environment phase, one of these effects will be selected that affects both players.
 
 Each card will have:
 
@@ -58,25 +69,25 @@ Each card will have:
 
 Both the active effect and the tactic failed penalty apply for both players that round, but may be skewed or in favor for the faction the Environment effect originated from.
 
-## Activations
+# Activations
 
 On an activation, the player may choose to activate a single unit, or multiple units as a Formation. 
 
-### Formations and Training
+## Formations and Training
 
 When activating a Formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
 
 If a leader is a part of the Formation, you may combine multiple units with different training types for the activation. As long as all the units are within base contact with each other, they can activate together with the leader.
 
-### Using Tactics
+## Using Tactics
 
-At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll an knack check trying to meet or exceed the knack score for the tactic selected.
+At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll the knack check trying to meet or exceed the knack score for the tactic selected. See Knack Rolls below for additional details.
 
-If successful, the effects apply for the rest of that activation to all activated units. If the knack check is failed, you suffer the penalties listed in the current active Environment effect.
+If successful, the effects apply to all units in the current activation. If the knack check is failed, all units in the current activation suffer the penalties listed on the current round's Environment Effect under Tactic Penalties.
 
 After applying the boon or penalty as needed, you may continue to take your unit(s) actions.
 
-### Unit Actions
+## Unit Actions
 
 As part of the activation, the units(s) may move up to their full movement value, attack with all weapons, and use all their abilities.
 
@@ -88,42 +99,79 @@ Instead of attacking with all weapons, the unit may choose to make an additional
 
 When moving a formation, the units must start AND end their overall movement in base contact.
 
-### Attacks
+## Movement
 
-#### Choosing a Target
-Activated units choose a target for EACH attack, prior to rolling. Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at a different target.
+Units may move freely through friendly units, but not through enemy units. Terrain may also block movement, and must either be scaled vertically or circumvented around, both costing additional movement. Use common sense in terms of measuring micro-details, keep the game moving.
 
-For weapons with melee type, targets must be within approximate base contact to be chosen. For cases where you want to attack a unit above or below you on a platform, but there is no space to manouver your miniature within base contact, you may assume that your unit moved within reach if it has the movement score to reach the target vertically.
+## Attacks
 
-For weapons with the ranged type, targets must be chosen such that they are within line of sight.
+### Choosing a Target
 
-#### Line of Sight and Cover
+Activated units choose a target for EACH attack, prior to rolling.
 
-If there are any obstacles that obscure the target from view, including other models, then the unit cannot be chosen as the target for a ranged attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
+Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. You may choose to resolve some attacks before proceeding with other attacks, as defeating units may change target eligibility through line of sight. You must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice.
 
-If the target is partially obscured, that is, there are lines that are un-interrupted, and lines that are interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical type to the unit’s existing defense types.
+### Weapon Types
 
-#### Knack Roll
+Some weapons work differently than others. A weapon may have more than one type listed, which allows you some flexibility on which targeting feature or penalty to take.
 
-To land each attack, the player will roll a six sided die for each attack, attempting to match the knack score for the weapon being used, listed on the unit’s stat block. Unmodified rolls of 1 always fail, and rolls of 6 always hit.
+**Melee** - This weapon may target adjacent units for attacks.
+
+**Near** - This weapon may be used to target any units within line of sight, AND within 10 steps.
+
+**Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
+
+**Heavy** - This weapon specializes in dealing large amounts of damage, penetrating even the strongest defense. For attacks where the target's defenses would reduce the damage to 0, Heavy weapons always deals a minimum of 2 damage for each successful attack. Additionally, Heavy weapons MUST be defined with 6 or more base damage per attack.
+
+### Line of Sight and Cover
+
+If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
+
+If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical Defense Type to the unit’s existing Defense Types.
+
+### Knack Roll
+
+Knack rolls are used for determining success for weapons, abilities, knack checks and other effects.
+
+To determine success, the player rolls a six sided die for each attack and applies any bonuses or penalties to the value, attempting to match the knack score for the weapon being used. Unmodified rolls of 1 always fail, and rolls of 6 always hit.
 
 If the unit is only attacking one target, you may roll all dice at the same time.
 
-If the unit is attacking multiple targets, roll the dice for each given target separately, in the order you want to resolve them.
+If the unit is attacking multiple targets, roll the dice for each given target separately, in the order you want to resolve them. If a die roll matches the knack score or higher, the attack lands and damage is inflicted.
 
-If a die roll matches the knack score or higher, the attack lands and damage is inflicted to the unit’s hit points based on the damage value of the weapon, modified by the defense value of the target.
+Knack checks for ability and tactic use work in a similar way.
 
-Some weapons are more effective against certain defense types. If the weapon used is effective against the defense type of the target unit, then the damage characteristic of the weapon is DOUBLED. In the case where the target has more than one defense type, the weapon must be effective against ALL the types to double the damage.
+### Calculating Damage
 
-All attacks that land will deal a minimum of 1 damage, even if the defense value of the target would reduce the damage to zero.
+For a regular attack. Damage is calculated individually, per attack.
 
-When a unit is reduced to zero hit points, it is removed from play, and replaced with a token signifying a fallen unit. Alternatively, if you don’t have access to any tokens, the miniature may be placed on it’s side instead to represent the token.
+Optionally, the player may choose to make a Focused Attack, in which case, they may choose to combine their attacks (per weapon) into 1 Attack, and gain a bonus damage equal to the number of attacks lost: Eg: A 5 Attack 2 Damage weapon becomes a 1 Attack 6 Damage weapon.
 
-#### Ranged Weapons in Melee Combat
+For each successful attack or source of damage, take the damage value, apply all bonuses and then apply all penalties from the defense value of the unit taking damage, in that order.
 
-If a unit currently  has an enemy within base contact, or melee weapons range: ALL knack checks involving exclusively ranged weapons must roll unmodified values of 6 to be successful.
+Damage is modified in several ways:
 
-### Abilities
+**Target Unit Defense Value** - Subtracted from the incoming damage.
+
+**Target Unit Defense Type** - Some units specify one or more Defense Types. These types are a protection against CRITICAL damage.
+
+**CRITICAL Attacks** - If an attack bypasses ALL Defense Types a unit has, it is considered a CRITICAL attack and does double damage (doubling is applied before subtracting defense value, as this is a bonus to the attack). If the attack has any other damage bonuses, they are also doubled by the CRITICAL.
+
+For example:
+
+> A Berserker is attacking a Scientist with an Axe (A3 D6). 
+> The weapon hits with 2 attack, with base 6 damage each.
+> The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 health on the unit for each attack.
+> 
+> If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 health on the unit for each attack.
+
+When a unit is reduced to zero health, it is removed from play, and replaced with a corpse or other token signifying the fallen unit. Some units drop different types of tokens on death, as specified on their stat sheet.
+
+### Melee and Movement Penalty
+
+In addition to limiting the accuracy of ranged weapons, when an enemy unit is within melee range, your unit suffers from limited mobility. Activating a unit that has enemy units within melee range limits you to either attacking or moving, but not both. Ability use is unaffected.
+
+## Abilities
 
 Units may have any number of abilities they can use during an activation. The ability text will specify how it is to be used and any costs they incur.
 
@@ -131,36 +179,27 @@ Most abilities will require some form of knack check, which works identical to w
 
 Abilities may supersede the rules in some fashion.
 
-### Tokens
+## Tokens
 
-Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1 inch in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
+Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1d in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
 
-### Conditions
-
-Some abilities, tactics, or environment effects can cause units to gain or lose conditions. These will persist for the duration specified when the condition is gained, and can be cleared with any effects that say they interact with conditions. Conditions can have positive or negative effects.
-
-### Terrain
-
-Other than blocking line of sight, terrain may impart other benefits or penalties around it. By default, all terrain has the following traits:
-
-* If a piece of terrain partially obscures a unit during an attack, units gain the benefit of cover bonus.
-* Terrain is scalable, costing movement in the vertical direction to ascend and descend.
+Tokens can be used as area effects, or keeping track of active debilitations or buffs to units, and they provide a much more visual and tactile way to track effects on the battlefield.
 
 ## Keywords
 
 * **Tactics** Faction-wide abilities that can be used at the start of any activation. Failing the knack check results in environmental penalties.
-* **Health** Number of hitpoints a unit has before it is defeated and removed from play.
-* **Defense Type(s)** The defense types, specifying the type of defense that unit has. The more types, the better. None is also valid.
-* **Defense Value** A numerical value for the level of defense.
+* **Health** Number of hit points a unit has before it is defeated and removed from play.
+* **Defense Type(s)** The defense types, specifying the type of defense that unit has. Protects against CRITICAL attacks.
+* **Defense Value** A numerical value for the level of defense. Subtracted from damage inflicted.
+* **CRITICAL Attack** When an attack bypasses all defense types of the target unit, it is considered a CRITICAL attack, doubling the damage inflicted.
 * **Move** Distance the unit can move in one activation
-* **Knack** The level of proficiency the unit has in wielding a weapon, ability or strategy. Defined as a number between 2 and 6. This is the target number to roll equal to or higher in order to score a hit, using a 6 sided dice.
-* **Weapons** A list of offensive capabilities the unit can use during an activation. Each Weapon has the following attributes:
+* **Knack** The level of proficiency the unit has in wielding a weapon, ability or tactic. Defined as a number between 2 and 6. Roll a six sided dice, and add any bonuses or penalities. If you meet the knack score or higher, it's successful.
+* **Weapons** A list of offensive capabilities the unit can use during an activation as attacks. Each Weapon has the following attributes:
   * **Attacks** The number of attacks the unit may make with this weapon in one activation.
   * **Damage** The amount of damage each attack with this weapon inflicts.
-  * **Effective** VS Type - The specific type of defense this weapon will inflict double damage against. Weapons may be effective against multiple defense types. To deal double damage, the weapon must be effective against ALL the types specified on the target. If the target has no defense types, ALL weapons do double damage against them.
+  * **Effective** VS Type - The defense types that this weapon bypasses, in an attempt to get the CRITICAL attack bonus.
 * **Abilities** A list of special tools and abilities the unit can use during an activation. Specific wording to describe the effect.
-* **Condition** An effect applied to a unit. If not specified, assume the duration is indefinite. Can be cleared by any abilities that specify they clear effects.
-* **Activation** The time during which a unit is able to move and attack and use it's abilities.
-* **Cover** Physical (3) Bonus against ranged attacks.
+* **Activation** The time during which a unit is able to move, attack and use it's abilities.
+* **Cover** Physical (3) Defense Bonus against Ranged and Near attacks.
 
 

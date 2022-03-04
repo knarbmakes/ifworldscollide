@@ -127,7 +127,7 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
-If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense [Physical 3]. That is, the value 3 is added to the score of the unit’s existing defense value, as well as adding the physical Defense Type to the unit’s existing Defense Types.
+If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense [Physical 1]. That is, the value 1 is added to the score of the unit’s existing defense value, as well as adding the physical Defense Type to the unit’s existing Defense Types.
 
 ### Knack Roll
 
@@ -200,6 +200,6 @@ Tokens can be used as area effects, or keeping track of active debilitations or 
   * **Effective** VS Type - The defense types that this weapon bypasses, in an attempt to get the CRITICAL attack bonus.
 * **Abilities** A list of special tools and abilities the unit can use during an activation. Specific wording to describe the effect.
 * **Activation** The time during which a unit is able to move, attack and use it's abilities.
-* **Cover** Physical (3) Defense Bonus against Ranged and Near attacks.
+* **Cover** Physical (1) Defense Bonus against Ranged and Near attacks.
 
 

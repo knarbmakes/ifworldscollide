@@ -31,7 +31,7 @@ Each individual model is refered to as a Unit. Different Units may have differen
 
 ## Playing the Game
 
-Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 150 point limit for your first game, scale up from there.
+Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 300 point limit for your first game, scale up from there.
 
 Decide on a mission. Refer to [List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 

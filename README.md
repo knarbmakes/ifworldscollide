@@ -144,7 +144,7 @@ Despite bonuses or penalties: die rolls of 1 always fail, and rolls of 6 always 
 
 For a regular attack. Damage is calculated individually, per attack.
 
-Optionally, the player may choose to make a Focused Attack, in which case, they may choose to combine their attacks (per weapon) into 1 Attack, and gain a bonus damage equal to the number of attacks lost: Eg: A 5 Attack 2 Damage weapon becomes a 1 Attack 6 Damage weapon.
+Optionally, the player may choose to make a Focused Attack, in which case, they may choose to combine their attacks (per weapon) into 1 Attack, and gain bonus damage equal to the number of attacks lost: Eg: A 5 Attack 2 Damage weapon becomes a 1 Attack 6 Damage weapon.
 
 For each successful attack or source of damage, take the damage value, apply all bonuses and then apply all penalties from the defense value of the unit taking damage, in that order.
 

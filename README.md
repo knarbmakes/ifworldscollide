@@ -134,7 +134,7 @@ If the target is partially obscured, that is: from the center of the source unit
 
 Knack rolls are used for determining success for weapon attacks, abilities and tactics.
 
-To determine success, the player rolls a six sided die and applies any bonuses or penalties to the value, attempting to match the knack score for the effect being used.
+The player rolls a six sided die and applies any bonuses or penalties to the value. Values that are equal to or higher than the knack score for the effect being used result in success.
 
 Before rolling, the player may choose to spend X Activation Points to gain a +X bonus to one of their Knack rolls. You cannot apply this bonus after seeing the die result.
 

@@ -118,7 +118,7 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 **Melee** - This weapon may target adjacent units for attacks.
 
-**Near** - This weapon may be used to target any units within line of sight, AND within 10 steps.
+**Near** - This weapon may be used to target any units within line of sight, AND within 8 steps.
 
 **Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
 

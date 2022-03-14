@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.5
+#### v1.6
 
 ---
 
@@ -48,10 +48,9 @@ Each **round** happens in 3 phases:
   * For more details, see the Environment Effects section.
 
 2. **ACTIVATION POINTS GAINED** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
-  * AP not used in a round are carried over to future rounds.
   * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
   * Each unit may only be activated once per round.
-  * In addition, AP may be spent to re-roll failed knack checks. Each re-roll attempt costs one AP.
+  * AP not used in a round are carried over to future rounds, for a maximum of 10 AP per player.
 
 3. **UNIT ACTIVATIONS** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
   * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
@@ -111,13 +110,15 @@ Activated units choose a target for EACH attack, prior to rolling.
 
 Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. You may choose to resolve some attacks before proceeding with other attacks, as defeating units may change target eligibility through line of sight. You must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice.
 
+For each attack you are resolving, roll a separate knack check. See Knack Rolls.
+
 ### Weapon Types
 
 Some weapons work differently than others. A weapon may have more than one type listed, which allows you some flexibility on which targeting feature or penalty to take.
 
 **Melee** - This weapon may target adjacent units for attacks.
 
-**Near** - This weapon may be used to target any units within line of sight, AND within 10 steps.
+**Near** - This weapon may be used to target any units within line of sight, AND within 8 steps.
 
 **Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
 
@@ -129,23 +130,21 @@ If there are any obstacles that obscure the target from view, including other mo
 
 If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense value 1. That is, the value 1 is added to the score of the unit’s existing defense value in addition to any defenses the unit already has.
 
-### Knack Roll
+### Knack Rolls
 
-Knack rolls are used for determining success for weapons, abilities, knack checks and other effects.
+Knack rolls are used for determining success for weapon attacks, abilities and tactics.
 
-To determine success, the player rolls a six sided die for each attack and applies any bonuses or penalties to the value, attempting to match the knack score for the weapon being used. Unmodified rolls of 1 always fail, and rolls of 6 always hit.
+The player rolls a six sided die and applies any bonuses or penalties to the value. Values that are equal to or higher than the knack score for the effect being used result in success.
 
-If the unit is only attacking one target, you may roll all dice at the same time.
+Before rolling, the player may choose to spend X Activation Points to gain a +X bonus to one of their Knack rolls. You cannot apply this bonus after seeing the die result.
 
-If the unit is attacking multiple targets, roll the dice for each given target separately, in the order you want to resolve them. If a die roll matches the knack score or higher, the attack lands and damage is inflicted.
-
-Knack checks for ability and tactic use work in a similar way.
+Despite bonuses or penalties: die rolls of 1 always fail, and rolls of 6 always succeed.
 
 ### Calculating Damage
 
 For a regular attack. Damage is calculated individually, per attack.
 
-Optionally, the player may choose to make a Focused Attack, in which case, they may choose to combine their attacks (per weapon) into 1 Attack, and gain a bonus damage equal to the number of attacks lost: Eg: A 5 Attack 2 Damage weapon becomes a 1 Attack 6 Damage weapon.
+Optionally, the player may choose to make a Focused Attack, in which case, they may choose to combine their attacks (per weapon) into 1 Attack, and gain bonus damage equal to the number of attacks lost: Eg: A 5 Attack 2 Damage weapon becomes a 1 Attack 6 Damage weapon.
 
 For each successful attack or source of damage, take the damage value, apply all bonuses and then apply all penalties from the defense value of the unit taking damage, in that order.
 

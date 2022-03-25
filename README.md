@@ -5,7 +5,7 @@
 
 **If Worlds Collide** is a skirmish wargame set among shattered worlds and realities. It is designed to be a toolbox rather than one defined world. The overarching setting pits players against each other to understand the mirrored cracks in reality. As fissures occur, worlds start to bleed into one another, cultures and civilizations meet for the first time, and conflicts arise. But this is just a spark, not the final destination.
 
-The game is played with 10 to 20 models per player, with no particular miniature line; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative gameplay with memorable and exciting moments. Games are designed to be completed within 1.5 hours for two players.
+The game can played with as little as 5-10 models per player; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative and strategic gameplay with memorable and exciting moments. Most Missions are designed to be completed within 1.5 hours for two players.
 
 ## Measurements and Dimensions
 
@@ -31,15 +31,15 @@ Each individual model is refered to as a Unit. Different Units may have differen
 
 ## Playing the Game
 
-Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 300 point limit for your first game, scale up from there.
+Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. If this is your first time player, you should start with a 300 point limit, scale up from there for future games.
 
-Decide on a mission. Refer to [List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
+Decide on a mission. Refer to [List of Missions](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 
-To start, lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
+Lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
 
-Unless the mission specifies otherwise, both players deploy units down simultaneously. Avoid looking at your opponents deployment zone until they are finished, no peeking.
+Unless the mission specifies otherwise, both players deploy units down simultaneously. Avoid looking at your opponents deployment zone until they are finished, assume fog of war during deployment, and don't let their specific deployment affect yours. Keep track of who finished deployment first.
 
-A game is played in 5 **rounds**, win conditions are determined by scenario objectives.
+Most games are played in 5 **rounds**, with specific win conditions determined by the mission objectives.
 
 Each **round** happens in 3 phases:
 
@@ -51,6 +51,7 @@ Each **round** happens in 3 phases:
   * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
   * Each unit may only be activated once per round.
   * AP not used in a round are carried over to future rounds, for a maximum of 10 AP per player.
+  * AP can be used to perform other effects, such as some abilities, tactics, or adding a bonus to Knack Rolls (see below).
 
 3. **UNIT ACTIVATIONS** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
   * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.

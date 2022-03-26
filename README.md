@@ -43,17 +43,17 @@ Most games are played in 5 **rounds**, with specific win conditions determined b
 
 Each **round** happens in 3 phases:
 
-1. **ENVIRONMENT EFFECTS** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
+1. **ENVIRONMENT PHASE** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
   * To randomly choose the effect for the current round: roll a six sided dice, and look up the Environment effect on the appropriate faction list. Keep this effect visible with a card or a sticky note for both players to reference readily.
   * For more details, see the Environment Effects section.
 
-2. **ACTIVATION POINTS GAINED** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
+2. **LOGISTICS PHASE** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
   * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
   * Each unit may only be activated once per round.
   * AP not used in a round are carried over to future rounds, for a maximum of 10 AP per player.
   * AP can be used to perform other effects, such as some abilities, tactics, or adding a bonus to Knack Rolls (see below).
 
-3. **UNIT ACTIVATIONS** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
+3. **ORDER PHASE** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
   * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
   * If a player decides to stop activating early, they are locked out from play until the next round begins.
   * For more details, see the Activations section.

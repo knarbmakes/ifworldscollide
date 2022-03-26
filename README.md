@@ -77,7 +77,9 @@ On an activation, the player may choose to activate a single unit, or multiple u
 
 When activating a Formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
 
-If a leader is a part of the Formation, you may combine multiple units with different training types for the activation. As long as all the units are within base contact with each other, they can activate together with the leader.
+Units with the Support Training type can activate with any Formation, regardless of Training Type. These units generally provide buffs and other support to units they activate with.
+
+Finally, if a unit with Leadership Training is a part of the Formation, you may ignore the Training requirements when building the Formation. The leader is able to coordinate any and all training types together as long as they form base contact.
 
 ## Using Tactics
 

@@ -125,7 +125,7 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 **Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
 
-**Heavy** - This weapon specializes in dealing large amounts of damage, penetrating even the strongest defense. For attacks where the target's defenses would reduce the damage to 0, Heavy weapons always deals a minimum of 2 damage for each successful attack. Additionally, Heavy weapons MUST be defined with 6 or more base damage per attack.
+**Heavy** - This deadly weapon is hard to move around and cumbersome to wield. May only be used for attacks if the unit has not moved that round, and prohibits the unit from moving if attacks are made with it.
 
 ### Line of Sight and Cover
 

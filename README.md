@@ -133,6 +133,8 @@ If there are any obstacles that obscure the target from view, including other mo
 
 If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense value 1. That is, the value 1 is added to the score of the unit’s existing defense value in addition to any defenses the unit already has.
 
+For units larger than 1 step in size, they must have less than 1 step visible to count as being in cover.
+
 ### Knack Rolls
 
 Knack rolls are used for determining success for weapon attacks, abilities and tactics.

@@ -1,11 +1,11 @@
 # Core Rules
-#### v1.6
+#### v1.7
 
 ---
 
 **If Worlds Collide** is a skirmish wargame set among shattered worlds and realities. It is designed to be a toolbox rather than one defined world. The overarching setting pits players against each other to understand the mirrored cracks in reality. As fissures occur, worlds start to bleed into one another, cultures and civilizations meet for the first time, and conflicts arise. But this is just a spark, not the final destination.
 
-The game is played with 10 to 20 models per player, with no particular miniature line; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative gameplay with memorable and exciting moments. Games are designed to be completed within 1.5 hours for two players.
+The game can played with as little as 5-10 models per player; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative and strategic gameplay with memorable and exciting moments. Most Missions are designed to be completed within 1.5 hours for two players.
 
 ## Measurements and Dimensions
 
@@ -31,28 +31,29 @@ Each individual model is refered to as a Unit. Different Units may have differen
 
 ## Playing the Game
 
-Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. Recommended you start with a 300 point limit for your first game, scale up from there.
+Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. If this is your first time player, you should start with a 300 point limit, scale up from there for future games.
 
-Decide on a mission. Refer to [List of Scenarios](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
+Decide on a mission. Refer to [List of Missions](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 
-To start, lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
+Lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
 
-Unless the mission specifies otherwise, both players deploy units down simultaneously. Avoid looking at your opponents deployment zone until they are finished, no peeking.
+Unless the mission specifies otherwise, both players deploy units down simultaneously. Avoid looking at your opponents deployment zone until they are finished, assume fog of war during deployment, and don't let their specific deployment affect yours. Keep track of who finished deployment first.
 
-A game is played in 5 **rounds**, win conditions are determined by scenario objectives.
+Most games are played in 5 **rounds**, with specific win conditions determined by the mission objectives.
 
 Each **round** happens in 3 phases:
 
-1. **ENVIRONMENT EFFECTS** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
+1. **ENVIRONMENT PHASE** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
   * To randomly choose the effect for the current round: roll a six sided dice, and look up the Environment effect on the appropriate faction list. Keep this effect visible with a card or a sticky note for both players to reference readily.
   * For more details, see the Environment Effects section.
 
-2. **ACTIVATION POINTS GAINED** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
+2. **LOGISTICS PHASE** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
   * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
   * Each unit may only be activated once per round.
   * AP not used in a round are carried over to future rounds, for a maximum of 10 AP per player.
+  * AP can be used to perform other effects, such as some abilities, tactics, or adding a bonus to Knack Rolls (see below).
 
-3. **UNIT ACTIVATIONS** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
+3. **ORDER PHASE** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
   * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
   * If a player decides to stop activating early, they are locked out from play until the next round begins.
   * For more details, see the Activations section.
@@ -76,7 +77,9 @@ On an activation, the player may choose to activate a single unit, or multiple u
 
 When activating a Formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
 
-If a leader is a part of the Formation, you may combine multiple units with different training types for the activation. As long as all the units are within base contact with each other, they can activate together with the leader.
+Units with the Support Training type can activate with any Formation, regardless of Training Type. These units generally provide buffs and other support to units they activate with.
+
+Finally, if a unit with Leadership Training is a part of the Formation, you may ignore the Training requirements when building the Formation. The leader is able to coordinate any and all training types together as long as they form base contact.
 
 ## Using Tactics
 
@@ -122,13 +125,15 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 **Ranged** - This weapon may be used to target any units within line of sight, at any distance. However, while an enemy unit threatens it within melee, all ranged attacks using Ranged targeting are less accurate, requiring unmodified knack rolls of 6 to hit successfully.
 
-**Heavy** - This weapon specializes in dealing large amounts of damage, penetrating even the strongest defense. For attacks where the target's defenses would reduce the damage to 0, Heavy weapons always deals a minimum of 2 damage for each successful attack. Additionally, Heavy weapons MUST be defined with 6 or more base damage per attack.
+**Heavy** - This deadly weapon is hard to move around and cumbersome to wield. May only be used for attacks if the unit has not moved that round, and prohibits the unit from moving if attacks are made with it.
 
 ### Line of Sight and Cover
 
 If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
 If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense value 1. That is, the value 1 is added to the score of the unit’s existing defense value in addition to any defenses the unit already has.
+
+For units larger than 1 step in size, they must have less than 1 step visible to count as being in cover.
 
 ### Knack Rolls
 

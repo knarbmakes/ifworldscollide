@@ -5,7 +5,7 @@ Some things can never be tamed, a lesson hard learned and frequently forgotten. 
 ## The Rules
 Standard 5 round game. Any unit within the inner circle structure can forgo their attack action in order to make a Knack 3 test to try to scavenge information and score a point. At most 3 points can be scored by a team in a given round. At the end of every round, every unit within the inner circle suffers 4 damage.
 
-Fist person to reach 7 points wins. In the event that a player loses all their units, the game immediately ends, and the person with the highest point count wins (even if they lost all their units).
+First person to reach 7 points wins. In the event that a player loses all their units, the game immediately ends, and the person with the highest point count wins (even if they lost all their units).
 
 If the game reaches the end of round 5 without a winner, the person with the most points wins.
 

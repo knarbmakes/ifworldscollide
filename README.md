@@ -83,7 +83,7 @@ Finally, if a unit with Leadership Training is a part of the Formation, you may 
 
 ## Using Tactics
 
-At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll the knack check trying to meet or exceed the knack score for the tactic selected. See Knack Rolls below for additional details.
+At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select a tactic from your faction sheet and roll the knack check trying to meet or exceed the knack score for the tactic selected. See Knack Rolls below for additional details.
 
 If successful, the effects apply to all units in the current activation. If the knack check is failed, all units in the current activation suffer the penalties listed on the current round's Environment Effect under Tactic Penalties.
 

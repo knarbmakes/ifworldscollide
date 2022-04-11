@@ -3,21 +3,21 @@
 
 ---
 
-**If Worlds Collide** is a skirmish wargame set among shattered worlds and realities. It is designed to be a toolbox rather than one defined world. The overarching setting pits players against each other to understand the mirrored cracks in reality. As fissures occur, worlds start to bleed into one another, cultures and civilizations meet for the first time, and conflicts arise. But this is just a spark, not the final destination.
+**If Worlds Collide** is a skirmish wargame set among shattered worlds and realities. There is no “true world” in a realm of infinite possibilities. The unyielding and cryptic cracks in reality pit the  players against each other as understanding and control eludes them. As fissures occur, worlds start to bleed into one another, cultures and civilizations meet for the first time, and conflicts arise. But this is just a spark, not the final destination.
 
-The game can played with as little as 5-10 models per player; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative and strategic gameplay with memorable and exciting moments. Most Missions are designed to be completed within 1.5 hours for two players.
+The game may be played with as little as 5-10 models per player; any and all levels of magic, technology and even different time periods can be played together. The focus of the game is on narrative and strategic gameplay with memorable and exciting moments. Most Missions are designed to be completed within 1.5 hours for two players.
 
 ## Measurements and Dimensions
 
-The game may be played in any scale and with any measurement system. Distances are defined as unitless steps (eg: 23s or 23 steps), which can be scaled/converted to your choosing. A simple rule of thumb for playing in 1:56 (standard 25/32mm) 1 step is equal to 1 inch, or 1 step is equal to 25mm.
+The game may be played in any scale and with any measurement system. Distances are defined as unitless steps (eg: 23s or 23 steps), which can be scaled/converted to your choosing. For playing in 1:56 (standard 25/32mm) 1 step is equal to 1 inch, or 1 step is equal to 25mm.
 
-## Stuff you Need
+## Necessary Components
 
 * A tabletop or surface to play the game on. A 36s by 36s square, or ~1300 steps squared rectangle.
 * Several pieces of terrain for blocking line-of-sight and creating an interesting play surface.
 * A set of six sided dice of various colors.
-* A set of miniatures to play with for each player. Each individual miniature model is referred to as a unit.
-* Stat sheets for each unit used as well as additional factions rules, such as environment and tactics.
+* A set of miniatures to play with for each player. Individual miniature models are referred to as a unit.
+* Stat sheets for each unit used and additional factions rules such as environment and tactics.
 * A set of tokens to represent activation points, as well as other battlefield tokens
 * A way to measure distance. Ruler/Measuring Tape.
 
@@ -31,29 +31,29 @@ Each individual model is refered to as a Unit. Different Units may have differen
 
 ## Playing the Game
 
-Before you start playing decide on a point limit with your opponent and build rosters that are equivalent in value. If this is your first time player, you should start with a 300 point limit, scale up from there for future games.
+Before you start playing, decide on a point limit with your opponent and build rosters that are equivalent in value. First time players should start with a 300 point limit and adjust from there.
 
 Decide on a mission. Refer to [List of Missions](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 
-Lay out the board and terrain and decide on deployment zones. Deployment zones will be sections of the board where players start putting down units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
+Lay out the board and terrain and decide on deployment zones. Deployment zones are sections of the board where players initially place units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
 
-Unless the mission specifies otherwise, both players deploy units down simultaneously. Avoid looking at your opponents deployment zone until they are finished, assume fog of war during deployment, and don't let their specific deployment affect yours. Keep track of who finished deployment first.
+Unless the mission specifies otherwise, both players deploy units simultaneously. Avoid looking at your opponents deployment zone until they are finished to avoid letting their deployment affect yours. Keep track of who finished deployment first.
 
 Most games are played in 5 **rounds**, with specific win conditions determined by the mission objectives.
 
 Each **round** happens in 3 phases:
 
-1. **ENVIRONMENT PHASE** Starting with the player that finished deploying first, alternate who rolls environment effects for the current round.
-  * To randomly choose the effect for the current round: roll a six sided dice, and look up the Environment effect on the appropriate faction list. Keep this effect visible with a card or a sticky note for both players to reference readily.
+1. **ENVIRONMENT PHASE** Starting with the player that finished deploying first, alternate who rolls their environment effects for the current round.
+  * To randomly choose the effect for the current round: roll a six sided dice, and look up the Environment effect on the appropriate faction list. Keep this effect visible with a card or a sticky note for both players to reference.
   * For more details, see the Environment Effects section.
 
-2. **LOGISTICS PHASE** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Multiple leaders can be used by a single player, in which case, the points are added cumulatively.
+2. **LOGISTICS PHASE** Each player earns 2 AP (Activation Points) by default, and additional points based on their current leader(s) leadership score. Players with multiple leaders receive the points from each.
   * You spend ONE AP each time you want to activate either one or multiple units together (see Formations below)
   * Each unit may only be activated once per round.
   * AP not used in a round are carried over to future rounds, for a maximum of 10 AP per player.
   * AP can be used to perform other effects, such as some abilities, tactics, or adding a bonus to Knack Rolls (see below).
 
-3. **ORDER PHASE** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
+3. **ORDERS PHASE** After gaining AP in the second phase, the player with the LOWEST value of accumulated points begins unit activations first. Resolve ties in AP with a dice roll.
   * Players alternate activations until they either run out of units to activate, run out of AP, or decide to stop and save their points for later rounds.
   * If a player decides to stop activating early, they are locked out from play until the next round begins.
   * For more details, see the Activations section.
@@ -62,12 +62,12 @@ Each **round** happens in 3 phases:
 
 Each player will have a table of Environment effects listed on their faction page. In the Environment phase, one of these effects will be selected that affects both players.
 
-Each card will have:
+Each environment entry will have:
 
 1. An active effect, which is enabled as soon as the round starts.
 1. A penalty for failing a tactic knack check. See Using Tactics below.
 
-Both the active effect and the tactic failed penalty apply for both players that round, but may be skewed or in favor for the faction the Environment effect originated from.
+Both the active effect and the tactic failed penalty apply for both players that round, but the environmental effects will be designed to favor the faction the Environment effect originated from.
 
 # Activations
 
@@ -75,19 +75,19 @@ On an activation, the player may choose to activate a single unit, or multiple u
 
 ## Formations and Training
 
-When activating a Formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation.
+When activating a Formation of units, the units must be within base contact (with allowances for wide miniatures) of each other and have the same training. Training is a set of faction specific tags that decide what units can activate together in formation. Units within a formation do not have to be in base contact with every other unit, they just have to be one continuous group.
 
-Units with the Support Training type can activate with any Formation, regardless of Training Type. These units generally provide buffs and other support to units they activate with.
+Units with the Support Training type can activate with any Formation, regardless of Training Type. These units generally provide buffs and other support to units.
 
 Finally, if a unit with Leadership Training is a part of the Formation, you may ignore the Training requirements when building the Formation. The leader is able to coordinate any and all training types together as long as they form base contact.
 
 ## Using Tactics
 
-At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select an tactic from your faction sheet and roll the knack check trying to meet or exceed the knack score for the tactic selected. See Knack Rolls below for additional details.
+At the beginning of each activation, before any movement, attacks or abilities, the player may choose a single tactic to use. Select a tactic from your faction sheet and roll the specified knack check, trying to meet or exceed the score for the tactic selected. See Knack Rolls below for additional details.
 
 If successful, the effects apply to all units in the current activation. If the knack check is failed, all units in the current activation suffer the penalties listed on the current round's Environment Effect under Tactic Penalties.
 
-After applying the boon or penalty as needed, you may continue to take your unit(s) actions.
+After applying the boon or penalty, you may continue to take your unit(s) actions.
 
 ## Unit Actions
 
@@ -103,7 +103,7 @@ When moving a formation, the units must start AND end their overall movement in 
 
 ## Movement
 
-Units may move freely through friendly units, but not through enemy units. Terrain may also block movement, and must either be scaled vertically or circumvented around, both costing additional movement. Use common sense in terms of measuring micro-details, keep the game moving.
+Units may move freely through friendly units, but not through enemy units. Terrain may also block movement, and must either be scaled vertically or circumvented around, both costing additional movement to get around the obstacle. Use common sense in terms of measuring micro-details, keep the game moving.
 
 ## Attacks
 
@@ -163,9 +163,9 @@ Damage is modified in several ways:
 
 For example:
 
-> A Berserker is attacking a Scientist with an Axe (A3 D6). 
-> The weapon hits with 2 attack, with base 6 damage each.
-> The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage, for a result of 5 health on the unit for each attack.
+> A Berserker is attacking a Scientist with an Axe (A3 D6).
+> They roll three Knack Rolls, and two of them succeed, each successful roll means the attack goes through.
+> The Scientist has a Defense Value of 1 and the Reactive Defense Type. Therefore, we subtract 1 from the incoming damage of 6, for a result of 5 health on the unit. This occurs twice, since two of the attacks succeeded. Defense value is always subtracted per attack, not as a whole.
 > 
 > If the Axe was able to bypass the Scientist's Reactive Defense Type OR the Scientist had no Defense Types listed, the attack would be CRITICAL, inflicting (12 - 1) damage for 11 health on the unit for each attack.
 

@@ -185,9 +185,14 @@ Abilities may supersede the rules in some fashion.
 
 ## Tokens
 
-Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1d in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
+Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1 step in diameter, unless otherwise specified.
 
-Tokens can be used as area effects, or keeping track of active debilitations or buffs to units, and they provide a much more visual and tactile way to track effects on the battlefield.
+Some Tokens might be a bit more specialized, and would have wording to reflect that. For Example:
+
+- May sometimes specify that they block line of sight and provide cover, just like other physical things on the battlefield.
+- May sometimes be used as area effects, or keeping track of active debilitations or buffs to units. (providing a tactile way to track effects on the battlefield)
+- May sometimes be picked up and carried by units or start out as being attached to a unit in some way.
+- May be destroyed, typically by any one successful attack.
 
 ## Keywords
 

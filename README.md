@@ -109,9 +109,11 @@ Units may move freely through friendly units, but not through enemy units. Terra
 
 ### Choosing a Target
 
-Activated units choose a target for EACH attack, prior to rolling.
+Activated units choose a target for EACH attack individially, prior to rolling. For simplicity and speed, players may choose to declare all attacks at once, or they can declare attacks in phases until they are all used up. 
 
-Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. You may choose to resolve some attacks before proceeding with other attacks, as defeating units may change target eligibility through line of sight. You must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice.
+Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. NOTE: Some weapons have multiple attacks, and can be targeted at different enemy units.
+
+Before rolling, you must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice. Pick specific units.
 
 For each attack you are resolving, roll a separate knack check. See Knack Rolls.
 

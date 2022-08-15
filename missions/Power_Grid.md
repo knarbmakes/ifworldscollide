@@ -12,7 +12,7 @@ This scenario pits the two factions against one another as they try and gain con
 
 ## Map
 
-<img src="https://i.imgur.com/gpMeBbD.jpg">
+<img src="https://i.imgur.com/8el2ApL.jpg">
 
 This mission uses a standard 36 x 36 map, the above is an example layout. Place 3 Loci of Power, distributed evenly along the center of the board.
 

@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.7
+#### v1.8
 
 ---
 
@@ -109,9 +109,11 @@ Units may move freely through friendly units, but not through enemy units. Terra
 
 ### Choosing a Target
 
-Activated units choose a target for EACH attack, prior to rolling.
+Activated units choose a target for EACH attack individially, prior to rolling. For simplicity and speed, players may choose to declare all attacks at once, or they can declare attacks in phases until they are all used up. 
 
-Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. You may choose to resolve some attacks before proceeding with other attacks, as defeating units may change target eligibility through line of sight. You must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice.
+Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. NOTE: Some weapons have multiple attacks, and can be targeted at different enemy units.
+
+Before rolling, you must declare intent clearly when specifying targets for attacks, don't just vaguely point in a direction while rolling dice. Pick specific units.
 
 For each attack you are resolving, roll a separate knack check. See Knack Rolls.
 
@@ -185,9 +187,14 @@ Abilities may supersede the rules in some fashion.
 
 ## Tokens
 
-Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1d in diameter, unless otherwise specified. Tokens can block line of sight and provide cover, just like any unit or terrain feature.
+Some abilities and effects cause tokens to be placed on the battlefield. These tokens are always 1 step in diameter, unless otherwise specified.
 
-Tokens can be used as area effects, or keeping track of active debilitations or buffs to units, and they provide a much more visual and tactile way to track effects on the battlefield.
+Some Tokens might be a bit more specialized, and would have wording to reflect that. For Example:
+
+- May sometimes specify that they block line of sight and provide cover, just like other physical things on the battlefield.
+- May sometimes be used as area effects, or keeping track of active debilitations or buffs to units. (providing a tactile way to track effects on the battlefield)
+- May sometimes be picked up and carried by units or start out as being attached to a unit in some way.
+- May be destroyed, typically by any one successful attack.
 
 ## Keywords
 

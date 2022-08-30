@@ -35,6 +35,8 @@ Before you start playing, decide on a point limit with your opponent and build r
 
 Decide on a mission. Refer to [List of Missions](https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md)
 
+Decide on the set of tactics your faction is using this game. You may only select up to 6 tactics for any match.
+
 Lay out the board and terrain and decide on deployment zones. Deployment zones are sections of the board where players initially place units. See the Mission details for guidance on setting up deployment zones as well as mission objectives.
 
 Unless the mission specifies otherwise, both players deploy units simultaneously. Avoid looking at your opponents deployment zone until they are finished to avoid letting their deployment affect yours. Keep track of who finished deployment first.

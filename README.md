@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.8
+#### v1.9
 
 ---
 
@@ -99,7 +99,7 @@ Attacks and Movement cannot be broken up in multiple parts, but may be done in a
 
 Abilities can be used at any time during the turn, as long as they do not break up Attacks or Movement.
 
-Instead of attacking with all weapons, the unit may choose to make an additional movement, also referred to as a double move.
+Instead of attacking with all weapons, the unit may choose to make an additional 4 steps of Movement.
 
 When moving a formation, the units must start AND end their overall movement in base contact.
 
@@ -135,7 +135,9 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
-If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense value 1. That is, the value 1 is added to the score of the unit’s existing defense value in addition to any defenses the unit already has.
+If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover. Units that are behind obscuring terrain can also be considered in cover. Agree with your opponent which terrain counts in this way. Exception: The unit making the ranged or near attack is touching the only terrain that would otherwise provide cover for the opponent (Same piece of cover can't be used for the bonus if both attacker and defender are touching it)
+
+Cover provides an additional defense value of 1. That is, the value 1 is added to the score of the unit’s existing defense value in addition to any defenses the unit already has. In addition, units being attacked that are under the benefit of cover require the opponent to make their attack rolls with a -1 knack penalty.
 
 For units larger than 1 step in size, they must have less than 1 step visible to count as being in cover.
 

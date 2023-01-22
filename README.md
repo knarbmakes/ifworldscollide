@@ -215,6 +215,6 @@ Some Tokens might be a bit more specialized, and would have wording to reflect t
   * **Effective** VS Type - The defense types that this weapon bypasses, in an attempt to get the CRITICAL attack bonus.
 * **Abilities** A list of special tools and abilities the unit can use during an activation. Specific wording to describe the effect.
 * **Activation** The time during which a unit is able to move, attack and use it's abilities.
-* **Cover** +1 Defense Bonus against Ranged and Near attacks.
+* **Cover** +1 Defense Bonus against Ranged and Near attacks. -1 Knack roll for attacker.
 
 

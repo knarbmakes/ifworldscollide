@@ -133,7 +133,7 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 ### Line of Sight and Cover
 
-If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
+If there are any obstacles that obscure the target from view, including other models that are not part of the activated formation (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
 If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover. Units that are behind obscuring terrain can also be considered in cover. Agree with your opponent which terrain counts in this way. Exception: The unit making the ranged or near attack is touching the only terrain that would otherwise provide cover for the opponent (Same piece of cover can't be used for the bonus if both attacker and defender are touching it)
 

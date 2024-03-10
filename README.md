@@ -31,9 +31,9 @@ Each individual model is refered to as a Unit. Different Units may have differen
 
 ## Playing the Game
 
-Before you start playing, decide on a point limit with your opponent and build rosters that are equivalent in value. First time players should start with a 300 point limit and adjust from there.
+Before you start playing, decide on a point limit with your opponent and build rosters that are equivalent in value. First time players should start with a 300 point limit and adjust from there. Our recommended starting factions are [The Order of the Broken Mirror](https://ifworldscollide.com/factions/the-order-of-the-broken-mirror) and [The Crimson Castellan](https://ifworldscollide.com/factions/the-crimson-castellan). Pit blood-thirst against cold calculations!
 
-Decide on a mission. Refer to [List of Missions](https://ifworldscollide.com/pagelist/scenario)
+Decide on a mission. Refer to [List of Missions](https://ifworldscollide.com/pagelist/scenario). A good starting scenario would be [First Contact](https://ifworldscollide.com/pages/63b1be2845132c72e85acf46). Terrain may introduce specific rules or features to the game board. A simple starting point would be adding a [teleporter](https://ifworldscollide.com/pages/63b20d9745132cba435acfe9). Be very clear about what pieces of terrain carry special rules at the setup phase.
 
 Decide on the set of tactics your faction is using this game. You may only select up to 6 tactics for any match.
 

@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.8
+#### v1.9
 
 ---
 
@@ -33,7 +33,7 @@ Each individual model is refered to as a Unit. Different Units may have differen
 
 Before you start playing, decide on a point limit with your opponent and build rosters that are equivalent in value. First time players should start with a 300 point limit and adjust from there. Our recommended starting factions are [The Order of the Broken Mirror](https://ifworldscollide.com/factions/the-order-of-the-broken-mirror) and [The Crimson Castellan](https://ifworldscollide.com/factions/the-crimson-castellan). Pit blood-thirst against cold calculations!
 
-Decide on a scenario and any terrain. Refer to [List of Scenarios]([https://github.com/knarbmakes/ifworldscollide/blob/main/missions/first_contact.md](https://ifworldscollide.com/pagelist/scenario)). A good starting scenario would be [First Contact](https://ifworldscollide.com/pages/63b1be2845132c72e85acf46). Terrain may introduce specific rules or features to the game board. A simple starting point would be adding a [teleporter](https://ifworldscollide.com/pages/63b20d9745132cba435acfe9). Be very clear about what pieces of terrain carry special rules at the setup phase.
+Decide on a mission. Refer to [List of Missions](https://ifworldscollide.com/pagelist/scenario). A good starting scenario would be [First Contact](https://ifworldscollide.com/pages/63b1be2845132c72e85acf46). Terrain may introduce specific rules or features to the game board. A simple starting point would be adding a [teleporter](https://ifworldscollide.com/pages/63b20d9745132cba435acfe9). Be very clear about what pieces of terrain carry special rules at the setup phase.
 
 Decide on the set of tactics your faction is using this game. You may only select up to 6 tactics for any match.
 
@@ -99,7 +99,7 @@ Attacks and Movement cannot be broken up in multiple parts, but may be done in a
 
 Abilities can be used at any time during the turn, as long as they do not break up Attacks or Movement.
 
-Instead of attacking with all weapons, the unit may choose to make an additional movement, also referred to as a double move.
+Instead of attacking with all weapons, the unit may choose to make an additional 4 steps of Movement.
 
 When moving a formation, the units must start AND end their overall movement in base contact.
 
@@ -133,9 +133,11 @@ Some weapons work differently than others. A weapon may have more than one type 
 
 ### Line of Sight and Cover
 
-If there are any obstacles that obscure the target from view, including other models (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
+If there are any obstacles that obscure the target from view, including other models that are not part of the activated formation (friend or foe), then the unit cannot be chosen as the target for a ranged or near attack. To determine if a unit is visible or obscured, draw an imaginary line from the center of the source unit to any point of the target unit. If a line exists that is un-interrupted, then the unit is visible.
 
-If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover defense value 1. That is, the value 1 is added to the score of the unit’s existing defense value in addition to any defenses the unit already has.
+If the target is partially obscured, that is: from the center of the source unit, there are lines that are interrupted and un-interrupted, then the target unit gains the benefit of cover. Units that are behind obscuring terrain can also be considered in cover. Agree with your opponent which terrain counts in this way. Exception: The unit making the ranged or near attack is touching the only terrain that would otherwise provide cover for the opponent (Same piece of cover can't be used for the bonus if both attacker and defender are touching it)
+
+Cover provides an additional defense value of 1. That is, the value 1 is added to the score of the unit’s existing defense value in addition to any defenses the unit already has. In addition, units being attacked that are under the benefit of cover require the opponent to make their attack rolls with a -1 knack penalty.
 
 For units larger than 1 step in size, they must have less than 1 step visible to count as being in cover.
 
@@ -213,6 +215,6 @@ Some Tokens might be a bit more specialized, and would have wording to reflect t
   * **Effective** VS Type - The defense types that this weapon bypasses, in an attempt to get the CRITICAL attack bonus.
 * **Abilities** A list of special tools and abilities the unit can use during an activation. Specific wording to describe the effect.
 * **Activation** The time during which a unit is able to move, attack and use it's abilities.
-* **Cover** +1 Defense Bonus against Ranged and Near attacks.
+* **Cover** +1 Defense Bonus against Ranged and Near attacks. -1 Knack roll for attacker.
 
 

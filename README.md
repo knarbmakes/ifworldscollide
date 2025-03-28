@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.9.2
+#### v1.9.3
 
 ---
 
@@ -105,7 +105,13 @@ When moving a formation, the units must start AND end their overall movement in 
 
 ## Movement
 
-Units may move freely through friendly units, but not through enemy units. Terrain may also block movement, and must either be scaled vertically or circumvented around, both costing additional movement to get around the obstacle. Use common sense in terms of measuring micro-details, keep the game moving.
+Units may move freely through friendly units, but not through enemy units. Terrain may also block movement, and must either be scaled vertically or circumvented around, both costing additional movement to get around the obstacle. In general, you can use common sense in terms of measuring micro-details to keep the game moving, but there are a few situations where specific movement rules apply...
+
+### Vertical Movement
+Unless stated in the terrain’s rules, units may travel vertically over terrain by spending 1 movement per vertical step. Units must spend movement ascending and descending, and cannot end their movement on top of terrain unless it has a level surface at least as big as the unit’s size (i.e. a Size 2 unit cannot stop at the top of a wall that is 1 step thick). If a unit cannot end its movement on top of a piece of terrain, and it does not have enough movement to both ascend and descend it, then it cannot attempt to climb the terrain.
+
+### Embarking
+Units may spend their remaining movement to embark (move inside) an adjacent transport unit or structure. Embarked units may disembark on subsequent activations without spending an action, placing them adjacent to the transport or structure, after which they may act as normal. Structures and transports may limit the number of units they have room for based on the total size of all embarked units, also called "Capacity", and may limit the actions that units can take while embarked. Transport units may not embark other transports, and cannot themselves embark structures. If a structure or transport is within the deployment zone at the start of combat, units may start the game deployed inside them.
 
 ## Attacks
 

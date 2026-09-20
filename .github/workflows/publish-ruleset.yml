@@ -1,0 +1,45 @@
+# Publish the core rules to ifworldscollide.com.
+#
+# On every push to main that touches README.md, this triggers a Cloud Run job in
+# the ifworldscollide GCP project. That job fetches this README, prepends the
+# site-specific preamble (Patreon + licence links) and updates the live ruleset.
+#
+# This workflow holds no secrets. It authenticates with Workload Identity
+# Federation, and the identity it assumes can only do two things: execute this
+# one job, and read the one secret the job needs. The database credential is
+# injected into the job by Cloud Run and never reaches this runner.
+name: Publish ruleset
+
+on:
+  push:
+    branches: [main]
+    paths: ['README.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: ruleset-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          project_id: ifworldscollide
+          workload_identity_provider: projects/1077889682365/locations/global/workloadIdentityPools/iwc-github/providers/github-main
+          service_account: iwc-ruleset-sync@ifworldscollide.iam.gserviceaccount.com
+
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db # v3
+
+      - name: Publish rules to the live site
+        run: |
+          gcloud run jobs execute iwc-ruleset-sync \
+            --project ifworldscollide \
+            --region us-central1 \
+            --wait

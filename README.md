@@ -1,5 +1,5 @@
 # Core Rules
-#### v1.9.3
+#### v1.9.4
 
 ---
 
@@ -117,7 +117,7 @@ Units may spend their remaining movement to embark (move inside) an adjacent tra
 
 ### Choosing a Target
 
-Activated units choose a target for EACH attack individially, prior to rolling. For simplicity and speed, players may choose to declare all attacks at once, or they can declare attacks in phases until they are all used up. 
+Activated units choose a target for EACH attack individually, prior to rolling. For simplicity and speed, players may choose to declare all attacks at once, or they can declare attacks in phases until they are all used up. 
 
 Each unit (if activating as a formation) as well as each weapon of a unit may be aimed at different targets if desired. NOTE: Some weapons have multiple attacks, and can be targeted at different enemy units.
 
@@ -214,7 +214,7 @@ Some Tokens might be a bit more specialized, and would have wording to reflect t
 * **Defense Value** A numerical value for the level of defense. Subtracted from damage inflicted.
 * **CRITICAL Attack** When an attack bypasses all defense types of the target unit, it is considered a CRITICAL attack, doubling the damage inflicted.
 * **Move** Distance the unit can move in one activation
-* **Knack** The level of proficiency the unit has in wielding a weapon, ability or tactic. Defined as a number between 2 and 6. Roll a six sided dice, and add any bonuses or penalities. If you meet the knack score or higher, it's successful.
+* **Knack** The level of proficiency the unit has in wielding a weapon, ability or tactic. Defined as a number between 2 and 6. Roll a six-sided die, and add any bonuses or penalties. If you meet the knack score or higher, it's successful.
 * **Weapons** A list of offensive capabilities the unit can use during an activation as attacks. Each Weapon has the following attributes:
   * **Attacks** The number of attacks the unit may make with this weapon in one activation.
   * **Damage** The amount of damage each attack with this weapon inflicts.

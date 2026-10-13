@@ -16,7 +16,12 @@ This is an example layout, place 5 portals randomly distributed on the board. Yo
 
 ## Starting Deployment
 
-Roll off to see who picks first deployment. The winner chooses one portal, and starts deploying units within 6 inches of it, while their opponent does the same from any other portal. Alternate placing units until they are all on the board.
+Roll off. The winner chooses one of these advantages, and their opponent gets the other:
+
+* **Choose deployment:** choose your portal first. Your opponent then chooses a portal on the opposite half of the board.
+* **Command the Environment:** provide the Environmental Effect in the first round of play, then alternate as normal.
+
+Each player starts deploying units within 6 inches of their portal, starting with the player who chose deployment. Alternate placing units until they are all on the board.
 
 ## Objectives & Win Condition
 
